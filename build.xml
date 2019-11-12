@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="bookmanager" default="package" basedir=".">
+<target name="package" description="package">
+		<tar destfile="bookmanager.tar">
+			<fileset dir="./">
+				<include name="*"/>
+			</fileset>
+		</tar>
+	</target>
+</project>
